@@ -1,0 +1,9 @@
+
+--- Package Cursores ------------>
+
+create or replace package midiaclip.pkg_refcursor
+is
+  type c_cursor is ref cursor;
+  v_sql         varchar2(4000); 
+  v_parametros  varchar2(1000);
+end pkg_refcursor;
